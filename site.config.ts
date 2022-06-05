@@ -2,24 +2,24 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '9fc4005ace274416bf5d756d02c4700a',
+  rootNotionPageId: 'bc68c47fb2b0417fbb87542db6962bb0',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: "d438f9ea-c9ef-4898-ab16-bc9242467f4e",
+  rootNotionSpaceId: "12e141c0-633f-4240-8b7b-c330cefed111",
 
   // basic site info (required)
-  name: 'lizhimiao的博客',
-  domain: 'lizhimiao.com',
-  author: 'zhimiao li',
+  name: 'photos',
+  domain: 'https://cheng-xing.notion.site/bc68c47fb2b0417fbb87542db6962bb0',
+  author: null,
 
   // open graph metadata (optional)
-  description: '笔记、博客和其他记录',
+  description: '写真浏览与下载',
 
   // social usernames (optional)
-  twitter: '_lizhimiao',
-  github: 'zhimiaoli',
-  linkedin: 'lizhimiao',
+  twitter: null,
+  github: null,
+  linkedin: null,
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
